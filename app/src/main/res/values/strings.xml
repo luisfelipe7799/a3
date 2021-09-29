@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Proyecto AppFitness</string>
+    <string name="hint1">Ej: 70,4</string>
+    <string name="hint2">Ej:1,76</string>
+
+    <string-array name="comidas">
+        <item>Porridge De Avena</item>
+        <item>Omelete</item>
+        <item>HotCake</item>
+        <item>Panqueques</item>
+
+    </string-array>
+
+    <string-array name="descripcion">
+        <item> Una receta muy completa que mezcla avena (copos, harina o trozeada) con leche o agua. El resultado es una pasta consistente. Por encima podemos añadirle semillas, frutos secos o trozos de fruta. Los ingredientes basicos son : 200-250 ml de leche (de vaca o vegetal) o agua
+        4 cucharadas de copos de avena
+        opcionales: canela, vainilla, miel, fruta fresca, frutos secos</item>
+        <item>Es un plato elaborado con huevo batido y cocinado con mantequilla o aceite (depende de la zona), en una sartén. La forma que adquiere durante el cocinado es similar al de una hoja redonda, extendida o plegada sobre sí misma. Los ingredientes que no pueden faltar son : 3 huevos
+        1 punado de champinones salteados
+        queso picado en cubos pequenos o rallado
+        sal, pimienta y ciboulette picado fino
+        1 cucharada de mantequilla</item>
+        <item>Masa fina que se prepara con harina, huevos, mantequilla y leche que se vierte sobre una sartén engrasada, "crepera" o plancha. Su forma es circular, y se puede rellenar tanto de ingredientes dulces como salados, estas últimas llamadas galettes.</item>
+        <item>Es una especie de crepe utilizado en las cocinas argentina, chilena, guatemalteca, hondureña, costarricense, mexicana, peruana, uruguaya y venezolana, para hacer preparaciones tanto dulces como saladas. Se lo acompaña también con un coulis de fresa, melocotón o relleno de plátano. ¿que necesito?
+        1 taza harina
+         1 taza leche líquida
+        2 huevos
+       1 cdts aceite
+       manjar o mermelada</item>
+
+    </string-array>
+
+
+    <string-array name="autos">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+
+
+    </string-array>
+
+    <string-array name="ejercicios">
+        <item>Sentadilla</item>
+        <item>Plancha</item>
+        <item>Estocada</item>
+        <item>Flexiones de brazo</item>
+        <item>Abdominales</item>
+        <item>Saltos</item>
+
+
+    </string-array>
+
+
+    <string-array name="comidasDelDia">
+        <item>Pan tostado</item>
+        <item>Avena</item>
+        <item>Huevos duros</item>
+        <item>Arroz con pollo</item>
+        <item>Brocoli </item>
+        <item>Atún</item>
+        <item>Galletas</item>
+        <item>Yoghurt</item>
+        <item>Cereal</item>
+
+
+    </string-array>
+
+    <color name="fondoChipP">#A3009688</color>
+    <string name="title_activity_p9">P9</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>
