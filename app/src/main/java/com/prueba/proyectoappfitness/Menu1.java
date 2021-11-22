@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.example.ejemplosqlite.MainActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import prueba.proyectoappfitness.R;
@@ -18,9 +19,9 @@ public class Menu1 extends AppCompatActivity {
     ImageButton irAP2;
     ImageButton irAP8;
     ImageButton irAP5;
-    ImageButton irAP9;
+    ImageButton irAMaps;
     ImageButton irAP10;
-    ImageButton irAP11;
+    ImageButton irACrud;
     ImageButton irAP12;
     Button irAP7;
     FloatingActionButton irAP4;
@@ -44,8 +45,8 @@ public class Menu1 extends AppCompatActivity {
         irAP7 = (Button) findViewById(R.id.valoranosBtn);
         irAP4 = (FloatingActionButton) findViewById(R.id.notasFab);
         irAP10 = (ImageButton) findViewById(R.id.imgP10Btn);
-
-
+        irAMaps = (ImageButton) findViewById(R.id.imgMapsBtn);
+        irACrud = (ImageButton) findViewById(R.id.imgPCrud);
 
 
         //para el progress Bar Horizontal
@@ -59,6 +60,13 @@ public class Menu1 extends AppCompatActivity {
             }
         },2000);
 
+        irACrud.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Menu1.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
         irAP2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +112,13 @@ public class Menu1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Menu1.this, P10.class);
+                startActivity(intent);
+            }
+        });
+        irAMaps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Menu1.this, Pantalla1.class);
                 startActivity(intent);
             }
         });
