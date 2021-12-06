@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.ejemplosqlite.MainActivity;
+import com.example.firebase.MainActivity2;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import prueba.proyectoappfitness.R;
@@ -25,6 +26,8 @@ public class Menu1 extends AppCompatActivity {
     ImageButton irAP12;
     Button irAP7;
     FloatingActionButton irAP4;
+
+    ImageButton irAComidas;
 
     //ProgressBar progressBarAnimation;
     //ObjectAnimator progressAnimator;
@@ -47,6 +50,7 @@ public class Menu1 extends AppCompatActivity {
         irAP10 = (ImageButton) findViewById(R.id.imgP10Btn);
         irAMaps = (ImageButton) findViewById(R.id.imgMapsBtn);
         irACrud = (ImageButton) findViewById(R.id.imgPCrud);
+        irAComidas = (ImageButton) findViewById(R.id.imgComidas);
 
 
         //para el progress Bar Horizontal
@@ -59,6 +63,14 @@ public class Menu1 extends AppCompatActivity {
                 pantallaCargaHorizontal.dismissDialog1();
             }
         },2000);
+
+        irAComidas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Menu1.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
 
         irACrud.setOnClickListener(new View.OnClickListener() {
             @Override
